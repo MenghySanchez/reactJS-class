@@ -1,6 +1,13 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 
+
+
+//inicio contruccion componente de boton
+/* a este bootn se le pasa el nombre del mismo al momento de agregarlo en la posicion que se desea mostrar
+Todos los componentes se escriben en PascalCase 
+*/
+
 const Button = ({text}) => {
   return (
     <button>
@@ -27,5 +34,6 @@ createRoot(document.getElementById("root")).render(
     <Button text="butonn 1"/>
     <Button text="butonn 2"/>
     <Button text="butonn 3"/>
+    <Button text="butonn 4"/>
   </React.Fragment>
 );
